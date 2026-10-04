@@ -96,8 +96,8 @@ ghar-sansar/
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/ghar-sansar.git
-cd ghar-sansar
+git clone https://github.com/Suraj278312/gharsansar.git
+cd gharsansar
 npm install
 ```
 
