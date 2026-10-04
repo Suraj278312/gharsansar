@@ -3,7 +3,7 @@ import React,{createContext,useContext,useEffect,useState} from 'react';
 import {findProduct} from './catalog';
 import {toast} from 'sonner';
 export type CartLine={id:string;variant:string;qty:number};
-export type Address={name:string;phone:string;house:string;street:string;landmark:string;city:string;state:string;pin:string};
+export type Address={name:string;email?:string;phone:string;house:string;street:string;landmark:string;city:string;state:string;pin:string};
 export type Order={id:string;date:string;items:CartLine[];total:number;address:Address;method:string;status:number};
 export type User={name:string;email:string;phone:string};
 type Data={remember:boolean;cart:CartLine[];wishlist:string[];orders:Order[];user:User|null;addresses:Address[];recent:string[]};
